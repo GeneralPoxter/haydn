@@ -7,7 +7,7 @@ let firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 let player;
-const NUM_VIDEOS = 110;
+const NUM_VIDEOS = 111;
 
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
@@ -18,7 +18,7 @@ function onYouTubeIframeAPIReady() {
 		},
 		playerVars: {
 			listType: 'playlist',
-			list: 'PLIYNfzJL0TSd98L5W7mCZp4RcFZK7Jda3'
+			list: 'PLj4L-SYtg1_N5fXk7CUeLqEQMYFE3QThL'
 		}
 	});
 }
